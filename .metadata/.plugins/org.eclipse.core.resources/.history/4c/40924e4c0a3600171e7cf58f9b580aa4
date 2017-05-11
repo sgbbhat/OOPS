@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Inheritance.cpp
+// Name        : Mult_Inheritance.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
@@ -9,44 +9,31 @@
 #include <iostream>
 using namespace std;
 
-// Base Class
-class shape
+class Shape
 {
 protected:
-	int height;
-	int width;
+	int height, width;
 
 public:
 	void set_height(int h)
 	{
 		height = h;
-		cout<<"Height set to : "<<height<<endl;
 	}
-
 	void set_width(int w)
 	{
 		width = w;
-		cout<<"Width set to : "<<width<<endl;
 	}
 };
 
-// Derived class
-
-class rectangle:public shape
+class Rectangle:public Shape
 {
-public:
-	float get_area()
+	int get_area()
 	{
-		return width*height;
+		return height * width;
 	}
 };
 
 int main() {
-	rectangle rect ;
-
-	rect.set_height(10);
-	rect.set_width(20);
-	cout<<"Area of the rectangle : "<<rect.get_area();
-
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }

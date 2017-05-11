@@ -67,3 +67,6 @@ Command-line arguments:  -data /home/shreeganesh/Documents/C++/OOPS -os linux -w
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-05-10 23:32:59.950
 !MESSAGE Indexed 'Inheritance' (1 sources, 148 headers) in 6.99 sec: 12,734 declarations; 20,782 references; 0 unresolved inclusions; 4 syntax errors; 22 unresolved names (0.066%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-10 23:56:24.555
+!MESSAGE Indexed 'Mult_Inheritance' (1 sources, 0 headers) in 0.008 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)

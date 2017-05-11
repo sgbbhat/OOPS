@@ -37,7 +37,7 @@ class rectangle:public shape
 public:
 	float get_area()
 	{
-		return width*height;
+		return width*width;
 	}
 };
 

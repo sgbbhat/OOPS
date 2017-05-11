@@ -37,13 +37,12 @@ class rectangle:public shape
 public:
 	float get_area()
 	{
-		return width*height;
+		return width*width;
 	}
 };
 
 int main() {
 	rectangle rect ;
-
 	rect.set_height(10);
 	rect.set_width(20);
 	cout<<"Area of the rectangle : "<<rect.get_area();
