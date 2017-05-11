@@ -1,0 +1,42 @@
+//============================================================================
+// Name        : Inheritance.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class shape
+{
+protected:
+	int height;
+	int width;
+
+public:
+	void set_height(int h)
+	{
+		height = h;
+	}
+
+	void set_width(int w)
+	{
+		width = w;
+	}
+};
+
+class rectangle:public shape
+{
+public:
+	float get_area()
+	{
+		return width*width;
+	}
+};
+
+int main() {
+	shape rect = new rectangle();
+	return 0;
+}
