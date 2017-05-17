@@ -1,0 +1,6 @@
+00:23:22 **** Incremental Build of configuration Debug for project DynMem ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:23:22 Build Finished (took 53ms)
+

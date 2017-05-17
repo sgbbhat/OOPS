@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="741" maximized="true" width="1018" x="0" y="27">
 <fastViewData fastViewLocation="1024"/>
@@ -8,18 +8,18 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="286" y="36"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="258" y="26"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="210" y="36"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="186" y="26"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="162" y="36"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="46" y="36"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="94" y="36"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="74" y="36"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="142" y="26"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="88" y="26"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="238" y="36"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,20 +28,26 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="DynMem.cpp" partName="DynMem.cpp" path="/home/shreeganesh/Documents/C++/OOPS/DynMem/src/DynMem.cpp" title="DynMem.cpp" tooltip="DynMem/src/DynMem.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DynMem/src/DynMem.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="708" selectionTopPixel="143"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Errors (3 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="381" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="382" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="378"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -72,7 +78,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -109,43 +115,30 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@69ce2f62" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@69ce2f62" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.66" ratioLeft="396" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.66" ratioLeft="396" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="300" ratioRight="300" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="300" ratioRight="300" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -199,9 +192,9 @@
 <new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
@@ -230,8 +223,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19778597" ratioLeft="268" ratioRight="1087" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.75" ratioLeft="444" ratioRight="148" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.15454546" ratioLeft="204" ratioRight="1116" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.53650254" ratioLeft="316" ratioRight="273" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -245,7 +238,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="topRight" ratio="0.7826502" ratioLeft="821" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
@@ -260,7 +253,166 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VirtualFunctionEx/src/VirtualFunctionEx.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Virt/src/Virt.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Pointers/src/Pointers.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Swap/src/Swap.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DynamicMemory/src/DynamicMemory.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DynMem/src/DynMem.cpp"/>
+</editors>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="577" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="625" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1073" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1010" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="969" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Virt.cpp" index="1">
+<position info="not_deleted" x="379" y="0"/>
+</item>
+<item historyLabel="VirtualFunctionEx.cpp" index="0">
+<position info="not_deleted" x="1973" y="0"/>
+</item>
+<item historyLabel="Virt.cpp" index="1">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="436" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="827" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="1517" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="478" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="467" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="471" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="478" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="744" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="712" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="466" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="2">
+<position info="not_deleted" x="876" y="0"/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position info="not_deleted" x="397" y="0"/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position info="not_deleted" x="499" y="0"/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="Swap.cpp" index="3">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="DynamicMemory.cpp" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DynamicMemory.cpp" index="4">
+<position info="not_deleted" x="534" y="0"/>
+</item>
+<item historyLabel="DynamicMemory.cpp" index="4">
+<position info="not_deleted" x="533" y="0"/>
+</item>
+<item historyLabel="DynamicMemory.cpp" index="4">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="810" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="708" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="511" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="809" y="0"/>
+</item>
+<item active="true" historyLabel="DynMem.cpp" index="5">
+<position info="not_deleted" x="806" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -277,6 +429,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DynMem.cpp" tooltip="DynMem/src/DynMem.cpp">
+<persistable path="/DynMem/src/DynMem.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DynamicMemory.cpp" tooltip="DynamicMemory/src/DynamicMemory.cpp">
+<persistable path="/DynamicMemory/src/DynamicMemory.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VirtualFunctionEx.cpp" tooltip="VirtualFunctionEx/src/VirtualFunctionEx.cpp">
+<persistable path="/VirtualFunctionEx/src/VirtualFunctionEx.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Virt.cpp" tooltip="Virt/src/Virt.cpp">
+<persistable path="/Virt/src/Virt.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mult_Inheritance.cpp" tooltip="Mult_Inheritance/src/Mult_Inheritance.cpp">
 <persistable path="/Mult_Inheritance/src/Mult_Inheritance.cpp"/>
 </file>

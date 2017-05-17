@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Swap.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+// Swap by pointer
+void swapByPtr(int *a, int *b)
+{
+
+}
+
+// Swap by reference
+void swapByRef(int &a, int &b)
+{
+
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

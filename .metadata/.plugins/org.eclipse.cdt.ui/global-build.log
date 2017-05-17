@@ -1,77 +1,15 @@
-23:52:37 **** Build of configuration Debug for project Inheritance ****
+00:23:14 **** Incremental Build of configuration Debug for project DynMem ****
 make all 
-Building file: ../src/Inheritance.cpp
+Building file: ../src/DynMem.cpp
 Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-../src/Inheritance.cpp: In function ‘int main()’:
-../src/Inheritance.cpp:42:19: error: conversion from ‘rectangle*’ to non-scalar type ‘rectangle’ requested
-  rectangle rect = new rectangle();
-                   ^~~~~~~~~~~~~~~
-make: *** [src/Inheritance.o] Error 1
-src/subdir.mk:18: recipe for target 'src/Inheritance.o' failed
-23:52:55 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-Building file: ../src/Inheritance.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-Finished building: ../src/Inheritance.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DynMem.d" -MT"src/DynMem.d" -o "src/DynMem.o" "../src/DynMem.cpp"
+Finished building: ../src/DynMem.cpp
  
-Building target: Inheritance
+Building target: DynMem
 Invoking: Cross G++ Linker
-g++  -o "Inheritance"  ./src/Inheritance.o   
-Finished building target: Inheritance
+g++  -o "DynMem"  ./src/DynMem.o   
+Finished building target: DynMem
  
-23:53:05 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-Building file: ../src/Inheritance.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-Finished building: ../src/Inheritance.cpp
- 
-Building target: Inheritance
-Invoking: Cross G++ Linker
-g++  -o "Inheritance"  ./src/Inheritance.o   
-Finished building target: Inheritance
- 
-23:55:02 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-Building file: ../src/Inheritance.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-Finished building: ../src/Inheritance.cpp
- 
-Building target: Inheritance
-Invoking: Cross G++ Linker
-g++  -o "Inheritance"  ./src/Inheritance.o   
-Finished building target: Inheritance
- 
-23:55:27 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-Building file: ../src/Inheritance.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-Finished building: ../src/Inheritance.cpp
- 
-Building target: Inheritance
-Invoking: Cross G++ Linker
-g++  -o "Inheritance"  ./src/Inheritance.o   
-Finished building target: Inheritance
- 
-23:55:35 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-make: Nothing to be done for 'all'.
-23:55:56 **** Incremental Build of configuration Debug for project Inheritance ****
-make all 
-Building file: ../src/Inheritance.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
-Finished building: ../src/Inheritance.cpp
- 
-Building target: Inheritance
-Invoking: Cross G++ Linker
-g++  -o "Inheritance"  ./src/Inheritance.o   
-Finished building target: Inheritance
- 
-23:56:03 **** Incremental Build of configuration Debug for project Inheritance ****
+00:23:22 **** Incremental Build of configuration Debug for project DynMem ****
 make all 
 make: Nothing to be done for 'all'.

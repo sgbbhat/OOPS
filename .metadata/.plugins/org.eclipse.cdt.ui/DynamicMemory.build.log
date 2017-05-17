@@ -1,0 +1,15 @@
+17:27:46 **** Incremental Build of configuration Debug for project DynamicMemory ****
+make all 
+Building file: ../src/DynamicMemory.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DynamicMemory.d" -MT"src/DynamicMemory.d" -o "src/DynamicMemory.o" "../src/DynamicMemory.cpp"
+Finished building: ../src/DynamicMemory.cpp
+ 
+Building target: DynamicMemory
+Invoking: Cross G++ Linker
+g++  -o "DynamicMemory"  ./src/DynamicMemory.o   
+Finished building target: DynamicMemory
+ 
+
+17:27:46 Build Finished (took 354ms)
+

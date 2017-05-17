@@ -1,0 +1,15 @@
+23:41:57 **** Incremental Build of configuration Debug for project Virt ****
+make all 
+Building file: ../src/Virt.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Virt.d" -MT"src/Virt.d" -o "src/Virt.o" "../src/Virt.cpp"
+Finished building: ../src/Virt.cpp
+ 
+Building target: Virt
+Invoking: Cross G++ Linker
+g++  -o "Virt"  ./src/Virt.o   
+Finished building target: Virt
+ 
+
+23:41:57 Build Finished (took 404ms)
+

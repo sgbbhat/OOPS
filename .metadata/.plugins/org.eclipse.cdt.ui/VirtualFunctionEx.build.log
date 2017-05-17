@@ -1,0 +1,15 @@
+23:41:48 **** Incremental Build of configuration Debug for project VirtualFunctionEx ****
+make all 
+Building file: ../src/VirtualFunctionEx.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VirtualFunctionEx.d" -MT"src/VirtualFunctionEx.d" -o "src/VirtualFunctionEx.o" "../src/VirtualFunctionEx.cpp"
+Finished building: ../src/VirtualFunctionEx.cpp
+ 
+Building target: VirtualFunctionEx
+Invoking: Cross G++ Linker
+g++  -o "VirtualFunctionEx"  ./src/VirtualFunctionEx.o   
+Finished building target: VirtualFunctionEx
+ 
+
+23:41:49 Build Finished (took 455ms)
+
