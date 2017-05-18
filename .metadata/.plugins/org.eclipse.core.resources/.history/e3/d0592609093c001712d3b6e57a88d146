@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : OperatorOvload.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Box
+{
+private:
+	double height;
+	double length;
+	double breadth;
+
+public:
+	Box(double len, double bt, double ht);
+	double getVolume();
+	void setlength(double len);
+	void setBreadth(double bt);
+	void setHeight(double ht);
+};
+
+Box::Box(double len, double bt, double ht){
+	this->height = ht;
+	this->breadth = bt;
+	this->length = len;
+}
+
+double Box::getVolume(){
+	return height*breadth*length;
+}
+
+void setlength(double len):len(length){
+
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

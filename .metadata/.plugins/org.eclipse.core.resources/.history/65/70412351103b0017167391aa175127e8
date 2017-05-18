@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : LibraryExec.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Book
+{
+	string title;
+	string author;
+	double price;
+	int accNum;
+	bool checkOutStatus;
+	int claimentId;
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,15 @@
+14:25:35 **** Incremental Build of configuration Debug for project CopyConstructor ****
+make all 
+Building file: ../src/CopyConstructor.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor.d" -MT"src/CopyConstructor.d" -o "src/CopyConstructor.o" "../src/CopyConstructor.cpp"
+Finished building: ../src/CopyConstructor.cpp
+ 
+Building target: CopyConstructor
+Invoking: Cross G++ Linker
+g++  -o "CopyConstructor"  ./src/CopyConstructor.o   
+Finished building target: CopyConstructor
+ 
+
+14:25:35 Build Finished (took 356ms)
+

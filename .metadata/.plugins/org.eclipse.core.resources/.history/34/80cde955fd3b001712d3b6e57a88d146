@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : CopyConstructor.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Disk{
+private:
+	int x, y;
+	double r;
+
+public:
+	Disk(int xpos, int ypos, double r);
+	Disk(const Disk &obj);
+	~Disk();
+
+	void printData();
+};
+
+Disk::Disk(int xpos, int ypos, double r){
+
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

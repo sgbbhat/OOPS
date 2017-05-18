@@ -1,0 +1,53 @@
+//============================================================================
+// Name        : CopyConstructor.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Disk{
+private:
+	int * x ;
+	int y;
+	double r;
+
+public:
+	Disk(int xpos, int ypos, double rad);
+	Disk(const Disk &obj);
+	~Disk();
+
+	void printData();
+};
+
+Disk::Disk(int xpos, int ypos, double rad){
+	*x = xpos;
+	y = ypos;
+	r = rad;
+}
+
+Disk::Disk(const Disk &obj){
+	x = new int;
+	y = obj.y;
+	r = obj.r;
+}
+
+void Disk::printData()
+{
+	cout<<"x : "<<*x<<endl;
+	cout<<"y : "<<y<<endl;
+	cout<<"r : "<<r<<endl;
+}
+
+Disk::~Disk()
+{
+	delete x;
+}
+
+int main() {
+	Disk D1(10, 20, 3.4);
+	return 0;
+}

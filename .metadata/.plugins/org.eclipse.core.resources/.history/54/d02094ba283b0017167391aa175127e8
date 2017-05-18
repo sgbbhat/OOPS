@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : LinkedStr.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct Driver{
+	string name;
+	int id;
+};
+
+struct LinkedTaxi
+{
+	int id;
+	Driver * drv;
+	LinkedTaxi * next;
+};
+
+int main() {
+	Driver D1, D2;
+	LinkedTaxi LT1, LT2;
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

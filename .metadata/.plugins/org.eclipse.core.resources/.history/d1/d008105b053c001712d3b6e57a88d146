@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : FunOverloading.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class FunOv
+{
+public:
+	void print(int val)
+	{
+		cout<<"Value passed is"<< val<<" is of type int"<<endl;
+	}
+
+	void print(float val)
+	{
+		cout<<"Value passed is"<< val<<" is of type float"<<endl;
+	}
+
+	void print(char val)
+
+
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

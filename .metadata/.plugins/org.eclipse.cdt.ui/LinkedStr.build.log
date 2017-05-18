@@ -1,0 +1,19 @@
+13:21:42 **** Incremental Build of configuration Debug for project LinkedStr ****
+make all 
+Building file: ../src/LinkedStr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedStr.d" -MT"src/LinkedStr.d" -o "src/LinkedStr.o" "../src/LinkedStr.cpp"
+../src/LinkedStr.cpp: In function ‘int main()’:
+../src/LinkedStr.cpp:31:18: warning: variable ‘LT2’ set but not used [-Wunused-but-set-variable]
+  LinkedTaxi LT1, LT2;
+                  ^~~
+Finished building: ../src/LinkedStr.cpp
+ 
+Building target: LinkedStr
+Invoking: Cross G++ Linker
+g++  -o "LinkedStr"  ./src/LinkedStr.o   
+Finished building target: LinkedStr
+ 
+
+13:21:42 Build Finished (took 356ms)
+

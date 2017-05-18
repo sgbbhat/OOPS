@@ -1,15 +1,3 @@
-00:23:14 **** Incremental Build of configuration Debug for project DynMem ****
-make all 
-Building file: ../src/DynMem.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DynMem.d" -MT"src/DynMem.d" -o "src/DynMem.o" "../src/DynMem.cpp"
-Finished building: ../src/DynMem.cpp
- 
-Building target: DynMem
-Invoking: Cross G++ Linker
-g++  -o "DynMem"  ./src/DynMem.o   
-Finished building target: DynMem
- 
-00:23:22 **** Incremental Build of configuration Debug for project DynMem ****
+15:58:43 **** Incremental Build of configuration Debug for project OperatorOvload ****
 make all 
 make: Nothing to be done for 'all'.

@@ -1,0 +1,15 @@
+22:49:14 **** Incremental Build of configuration Debug for project Constructor ****
+make all 
+Building file: ../src/Constructor.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor.d" -MT"src/Constructor.d" -o "src/Constructor.o" "../src/Constructor.cpp"
+Finished building: ../src/Constructor.cpp
+ 
+Building target: Constructor
+Invoking: Cross G++ Linker
+g++  -o "Constructor"  ./src/Constructor.o   
+Finished building target: Constructor
+ 
+
+22:49:15 Build Finished (took 810ms)
+

@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : StrPtr.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+struct MyStructType
+{
+	char c;
+	int x, y;
+};
+
+int main() {
+	MyStructType p1;
+	MyStructType * ptr1;
+	ptr1 = &p1;
+
+	cout<<"char type c stored in the location : "<< ptr1->c <<endl;
+	cout<<"int type x stored in the location : "<< ptr1->x <<endl;
+	cout<<"int type y stored in the location : "<< ptr1->c <<endl;
+	return 0;
+}
