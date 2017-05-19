@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : ConstDerivedClass.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Base
+{
+public:
+	int id;
+	float balance;
+
+	Base(int identity, float bal){
+		id = identity ;
+		balance = bal;
+	}
+
+	void printinfo()
+	{
+		cout<<"Printing in base"<<endl;
+		cout<<"Id = "<<id<<endl;
+		cout<<"Bal = "<<id<<endl;
+	}
+};
+
+class Savings
+{
+
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

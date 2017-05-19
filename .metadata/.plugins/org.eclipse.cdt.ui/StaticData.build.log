@@ -1,0 +1,15 @@
+16:42:57 **** Incremental Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+Finished building: ../src/StaticData.cpp
+ 
+Building target: StaticData
+Invoking: Cross G++ Linker
+g++  -o "StaticData"  ./src/StaticData.o   
+Finished building target: StaticData
+ 
+
+16:42:57 Build Finished (took 452ms)
+

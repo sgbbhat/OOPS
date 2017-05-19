@@ -1,0 +1,48 @@
+//============================================================================
+// Name        : UnaryOpOverload.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Distance
+{
+private:
+	int feet;
+	int inches;
+
+public:
+	Distance();
+	Distance(int f, int i);
+	void Display_Distance();
+
+	Distance operator-();
+};
+
+Distance::Distance(){
+	feet = 0;
+	inches = 0;
+}
+
+Distance::Distance(int f, int i){
+	feet = f;
+	inches = i;
+}
+
+void Distance::Display_Distance(){
+	cout<<"Feet : "<< this->feet<<" inches : "<<this->inches<<endl;
+}
+
+Distance Distance::operator - ()
+{
+	return Distance(-feet, -inches);
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

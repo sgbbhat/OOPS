@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : StaticData.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Point{
+private:
+	int x, y;
+
+public:
+	int count;
+
+	Point()
+	{
+		count++;
+	}
+
+	void printCount(){
+		cout<<"Count : "<<count<<endl;
+	}
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

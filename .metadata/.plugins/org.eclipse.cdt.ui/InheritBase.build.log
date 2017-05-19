@@ -1,0 +1,15 @@
+23:28:19 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+Finished building: ../src/InheritBase.cpp
+ 
+Building target: InheritBase
+Invoking: Cross G++ Linker
+g++  -o "InheritBase"  ./src/InheritBase.o   
+Finished building target: InheritBase
+ 
+
+23:28:19 Build Finished (took 354ms)
+

@@ -1,0 +1,15 @@
+16:30:25 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+
+16:30:26 Build Finished (took 354ms)
+

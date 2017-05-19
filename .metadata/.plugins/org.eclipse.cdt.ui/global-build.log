@@ -1,3 +1,397 @@
 15:58:43 **** Incremental Build of configuration Debug for project OperatorOvload ****
 make all 
 make: Nothing to be done for 'all'.
+16:03:56 **** Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:05:24 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+../src/UnaryOpOverload.cpp:40:20: error: ‘Distance operator-()’ must have an argument of class or enumerated type
+ Distance operator-(){
+                    ^
+src/subdir.mk:18: recipe for target 'src/UnaryOpOverload.o' failed
+make: *** [src/UnaryOpOverload.o] Error 1
+16:05:35 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+../src/UnaryOpOverload.cpp:40:20: error: ‘Distance operator-()’ must have an argument of class or enumerated type
+ Distance operator-(){
+                    ^
+make: *** [src/UnaryOpOverload.o] Error 1
+src/subdir.mk:18: recipe for target 'src/UnaryOpOverload.o' failed
+16:06:15 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:07:57 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:08:15 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:04 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:09:06 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:54 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:09:56 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+make: Nothing to be done for 'all'.
+16:10:06 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+Building file: ../src/UnaryOpOverload.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UnaryOpOverload.d" -MT"src/UnaryOpOverload.d" -o "src/UnaryOpOverload.o" "../src/UnaryOpOverload.cpp"
+Finished building: ../src/UnaryOpOverload.cpp
+ 
+Building target: UnaryOpOverload
+Invoking: Cross G++ Linker
+g++  -o "UnaryOpOverload"  ./src/UnaryOpOverload.o   
+Finished building target: UnaryOpOverload
+ 
+16:10:07 **** Incremental Build of configuration Debug for project UnaryOpOverload ****
+make all 
+make: Nothing to be done for 'all'.
+16:26:39 **** Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+16:28:35 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+16:28:46 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+16:28:57 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+make: Nothing to be done for 'all'.
+16:29:57 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+../src/FriendFunction.cpp:25:1: error: ‘friend’ used outside of class
+ friend bool colinear(Point &p1, Point &p2, Point &p3){
+ ^~~~~~
+src/subdir.mk:18: recipe for target 'src/FriendFunction.o' failed
+make: *** [src/FriendFunction.o] Error 1
+16:30:06 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+16:30:18 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+../src/FriendFunction.cpp: In function ‘bool colinear(Point&, Point&, Point&)’:
+../src/FriendFunction.cpp:26:16: error: ‘int Point::x’ is private within this context
+  int temp = p1.x + p2.x + p3.x;
+                ^
+../src/FriendFunction.cpp:14:6: note: declared private here
+  int x, y;
+      ^
+../src/FriendFunction.cpp:26:23: error: ‘int Point::x’ is private within this context
+  int temp = p1.x + p2.x + p3.x;
+                       ^
+../src/FriendFunction.cpp:14:6: note: declared private here
+  int x, y;
+      ^
+../src/FriendFunction.cpp:26:30: error: ‘int Point::x’ is private within this context
+  int temp = p1.x + p2.x + p3.x;
+                              ^
+../src/FriendFunction.cpp:14:6: note: declared private here
+  int x, y;
+      ^
+src/subdir.mk:18: recipe for target 'src/FriendFunction.o' failed
+make: *** [src/FriendFunction.o] Error 1
+16:30:25 **** Incremental Build of configuration Debug for project FriendFunction ****
+make all 
+Building file: ../src/FriendFunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FriendFunction.d" -MT"src/FriendFunction.d" -o "src/FriendFunction.o" "../src/FriendFunction.cpp"
+Finished building: ../src/FriendFunction.cpp
+ 
+Building target: FriendFunction
+Invoking: Cross G++ Linker
+g++  -o "FriendFunction"  ./src/FriendFunction.o   
+Finished building target: FriendFunction
+ 
+16:38:44 **** Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+Finished building: ../src/StaticData.cpp
+ 
+Building target: StaticData
+Invoking: Cross G++ Linker
+g++  -o "StaticData"  ./src/StaticData.o   
+Finished building target: StaticData
+ 
+16:38:57 **** Incremental Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+Finished building: ../src/StaticData.cpp
+ 
+Building target: StaticData
+Invoking: Cross G++ Linker
+g++  -o "StaticData"  ./src/StaticData.o   
+Finished building target: StaticData
+ 
+16:39:13 **** Incremental Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+Finished building: ../src/StaticData.cpp
+ 
+Building target: StaticData
+Invoking: Cross G++ Linker
+g++  -o "StaticData"  ./src/StaticData.o   
+Finished building target: StaticData
+ 
+16:42:44 **** Incremental Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+../src/StaticData.cpp:34:12: error: ‘int Point::count’ is not a static data member of ‘class Point’
+ int Point::count = 0;
+            ^~~~~
+../src/StaticData.cpp: In function ‘int main()’:
+../src/StaticData.cpp:38:15: error: invalid use of non-static data member ‘Point::count’
+  cout<<Point::count<<endl;
+               ^~~~~
+../src/StaticData.cpp:17:6: note: declared here
+  int count;
+      ^~~~~
+src/subdir.mk:18: recipe for target 'src/StaticData.o' failed
+make: *** [src/StaticData.o] Error 1
+16:42:57 **** Incremental Build of configuration Debug for project StaticData ****
+make all 
+Building file: ../src/StaticData.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticData.d" -MT"src/StaticData.d" -o "src/StaticData.o" "../src/StaticData.cpp"
+Finished building: ../src/StaticData.cpp
+ 
+Building target: StaticData
+Invoking: Cross G++ Linker
+g++  -o "StaticData"  ./src/StaticData.o   
+Finished building target: StaticData
+ 
+23:09:40 **** Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+../src/InheritBase.cpp:28:23: error: cannot define member function ‘Base::printInfo’ within ‘Savings’
+  void Base::printInfo(){
+                       ^
+../src/InheritBase.cpp:16:12: error: flexible array member ‘Base::name’ not at end of ‘class Savings’
+  char name[];
+            ^
+../src/InheritBase.cpp:26:6: note: next member ‘int Savings::age’ declared here
+  int age;
+      ^~~
+../src/InheritBase.cpp:24:7: note: in the definition of ‘class Savings’
+ class Savings:public Base{
+       ^~~~~~~
+make: *** [src/InheritBase.o] Error 1
+src/subdir.mk:18: recipe for target 'src/InheritBase.o' failed
+23:09:53 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+../src/InheritBase.cpp:28:23: error: cannot declare member function ‘Base::printInfo’ within ‘Savings’
+  void Base::printInfo();
+                       ^
+../src/InheritBase.cpp:16:12: error: flexible array member ‘Base::name’ not at end of ‘class Savings’
+  char name[];
+            ^
+../src/InheritBase.cpp:26:6: note: next member ‘int Savings::age’ declared here
+  int age;
+      ^~~
+../src/InheritBase.cpp:24:7: note: in the definition of ‘class Savings’
+ class Savings:public Base{
+       ^~~~~~~
+src/subdir.mk:18: recipe for target 'src/InheritBase.o' failed
+make: *** [src/InheritBase.o] Error 1
+23:10:17 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+../src/InheritBase.cpp:16:12: error: flexible array member ‘Base::name’ not at end of ‘class Savings’
+  char name[];
+            ^
+../src/InheritBase.cpp:26:6: note: next member ‘int Savings::age’ declared here
+  int age;
+      ^~~
+../src/InheritBase.cpp:24:7: note: in the definition of ‘class Savings’
+ class Savings:public Base{
+       ^~~~~~~
+src/subdir.mk:18: recipe for target 'src/InheritBase.o' failed
+make: *** [src/InheritBase.o] Error 1
+23:10:32 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+Finished building: ../src/InheritBase.cpp
+ 
+Building target: InheritBase
+Invoking: Cross G++ Linker
+g++  -o "InheritBase"  ./src/InheritBase.o   
+Finished building target: InheritBase
+ 
+23:10:48 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+Finished building: ../src/InheritBase.cpp
+ 
+Building target: InheritBase
+Invoking: Cross G++ Linker
+g++  -o "InheritBase"  ./src/InheritBase.o   
+Finished building target: InheritBase
+ 
+23:28:19 **** Incremental Build of configuration Debug for project InheritBase ****
+make all 
+Building file: ../src/InheritBase.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InheritBase.d" -MT"src/InheritBase.d" -o "src/InheritBase.o" "../src/InheritBase.cpp"
+Finished building: ../src/InheritBase.cpp
+ 
+Building target: InheritBase
+Invoking: Cross G++ Linker
+g++  -o "InheritBase"  ./src/InheritBase.o   
+Finished building target: InheritBase
+ 
+10:08:49 **** Build of configuration Debug for project ConstDerivedClass ****
+make all 
+Building file: ../src/ConstDerivedClass.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstDerivedClass.d" -MT"src/ConstDerivedClass.d" -o "src/ConstDerivedClass.o" "../src/ConstDerivedClass.cpp"
+Finished building: ../src/ConstDerivedClass.cpp
+ 
+Building target: ConstDerivedClass
+Invoking: Cross G++ Linker
+g++  -o "ConstDerivedClass"  ./src/ConstDerivedClass.o   
+Finished building target: ConstDerivedClass
+ 
+10:10:43 **** Incremental Build of configuration Debug for project ConstDerivedClass ****
+make all 
+Building file: ../src/ConstDerivedClass.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstDerivedClass.d" -MT"src/ConstDerivedClass.d" -o "src/ConstDerivedClass.o" "../src/ConstDerivedClass.cpp"
+Finished building: ../src/ConstDerivedClass.cpp
+ 
+Building target: ConstDerivedClass
+Invoking: Cross G++ Linker
+g++  -o "ConstDerivedClass"  ./src/ConstDerivedClass.o   
+Finished building target: ConstDerivedClass
+ 
+10:13:39 **** Incremental Build of configuration Debug for project ConstDerivedClass ****
+make all 
+Building file: ../src/ConstDerivedClass.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstDerivedClass.d" -MT"src/ConstDerivedClass.d" -o "src/ConstDerivedClass.o" "../src/ConstDerivedClass.cpp"
+Finished building: ../src/ConstDerivedClass.cpp
+ 
+Building target: ConstDerivedClass
+Invoking: Cross G++ Linker
+g++  -o "ConstDerivedClass"  ./src/ConstDerivedClass.o   
+Finished building target: ConstDerivedClass
+ 

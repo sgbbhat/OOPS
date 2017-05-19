@@ -1,0 +1,15 @@
+10:13:39 **** Incremental Build of configuration Debug for project ConstDerivedClass ****
+make all 
+Building file: ../src/ConstDerivedClass.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstDerivedClass.d" -MT"src/ConstDerivedClass.d" -o "src/ConstDerivedClass.o" "../src/ConstDerivedClass.cpp"
+Finished building: ../src/ConstDerivedClass.cpp
+ 
+Building target: ConstDerivedClass
+Invoking: Cross G++ Linker
+g++  -o "ConstDerivedClass"  ./src/ConstDerivedClass.o   
+Finished building target: ConstDerivedClass
+ 
+
+10:13:39 Build Finished (took 353ms)
+
