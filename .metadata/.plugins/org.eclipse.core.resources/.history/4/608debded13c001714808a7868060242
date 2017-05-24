@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Enums.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+typedef char test;
+
+int main() {
+	test x = '1';
+
+	cout<<x<<endl;
+
+	return 0;
+}

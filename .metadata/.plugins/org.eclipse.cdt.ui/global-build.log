@@ -395,3 +395,634 @@ Invoking: Cross G++ Linker
 g++  -o "ConstDerivedClass"  ./src/ConstDerivedClass.o   
 Finished building target: ConstDerivedClass
  
+12:09:20 **** Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:52:12: error: conversion from ‘Savings*’ to non-scalar type ‘Base’ requested
+  Base b1 = new Savings();
+            ^~~~~~~~~~~~~
+make: *** [src/Polymorphism.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+12:09:25 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:52:12: error: conversion from ‘Savings*’ to non-scalar type ‘Base’ requested
+  Base b1 = new Savings;
+            ^~~~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+make: *** [src/Polymorphism.o] Error 1
+12:09:38 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:52:12: error: conversion from ‘Savings*’ to non-scalar type ‘Base’ requested
+  Base b1 = new Savings;
+            ^~~~~~~~~~~
+make: *** [src/Polymorphism.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+12:09:43 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:53:5: error: request for member ‘printinfo’ in ‘b1’, which is of pointer type ‘Base*’ (maybe you meant to use ‘->’ ?)
+  b1.printinfo();
+     ^~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+make: *** [src/Polymorphism.o] Error 1
+12:09:54 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+Finished building: ../src/Polymorphism.cpp
+ 
+Building target: Polymorphism
+Invoking: Cross G++ Linker
+g++  -o "Polymorphism"  ./src/Polymorphism.o   
+Finished building target: Polymorphism
+ 
+12:10:05 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+make: Nothing to be done for 'all'.
+12:10:17 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+Finished building: ../src/Polymorphism.cpp
+ 
+Building target: Polymorphism
+Invoking: Cross G++ Linker
+g++  -o "Polymorphism"  ./src/Polymorphism.o   
+Finished building target: Polymorphism
+ 
+12:10:25 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+make: Nothing to be done for 'all'.
+12:10:41 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:55:9: error: redeclaration of ‘Base* b1’
+  Base * b1 = new Current();
+         ^~
+../src/Polymorphism.cpp:52:9: note: ‘Base* b1’ previously declared here
+  Base * b1 = new Savings();
+         ^~
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+make: *** [src/Polymorphism.o] Error 1
+12:10:42 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:55:9: error: redeclaration of ‘Base* b1’
+  Base * b1 = new Current();
+         ^~
+../src/Polymorphism.cpp:52:9: note: ‘Base* b1’ previously declared here
+  Base * b1 = new Savings();
+         ^~
+make: *** [src/Polymorphism.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+12:10:58 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+Finished building: ../src/Polymorphism.cpp
+ 
+Building target: Polymorphism
+Invoking: Cross G++ Linker
+g++  -o "Polymorphism"  ./src/Polymorphism.o   
+Finished building target: Polymorphism
+ 
+12:11:00 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+make: Nothing to be done for 'all'.
+12:12:45 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+../src/Polymorphism.cpp: In function ‘int main()’:
+../src/Polymorphism.cpp:56:8: error: cannot convert ‘Savings**’ to ‘Base*’ in assignment
+  b1 = &s1;
+        ^~
+../src/Polymorphism.cpp:59:8: error: cannot convert ‘Current**’ to ‘Base*’ in assignment
+  b1 = &c1;
+        ^~
+make: *** [src/Polymorphism.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Polymorphism.o' failed
+12:12:56 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+Finished building: ../src/Polymorphism.cpp
+ 
+Building target: Polymorphism
+Invoking: Cross G++ Linker
+g++  -o "Polymorphism"  ./src/Polymorphism.o   
+Finished building target: Polymorphism
+ 
+12:13:20 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+Building file: ../src/Polymorphism.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Polymorphism.d" -MT"src/Polymorphism.d" -o "src/Polymorphism.o" "../src/Polymorphism.cpp"
+Finished building: ../src/Polymorphism.cpp
+ 
+Building target: Polymorphism
+Invoking: Cross G++ Linker
+g++  -o "Polymorphism"  ./src/Polymorphism.o   
+Finished building target: Polymorphism
+ 
+12:13:26 **** Incremental Build of configuration Debug for project Polymorphism ****
+make all 
+make: Nothing to be done for 'all'.
+13:58:52 **** Build of configuration Debug for project SwitchBreak ****
+make all 
+Building file: ../src/SwitchBreak.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SwitchBreak.d" -MT"src/SwitchBreak.d" -o "src/SwitchBreak.o" "../src/SwitchBreak.cpp"
+Finished building: ../src/SwitchBreak.cpp
+ 
+Building target: SwitchBreak
+Invoking: Cross G++ Linker
+g++  -o "SwitchBreak"  ./src/SwitchBreak.o   
+Finished building target: SwitchBreak
+ 
+13:59:03 **** Incremental Build of configuration Debug for project SwitchBreak ****
+make all 
+make: Nothing to be done for 'all'.
+13:59:12 **** Incremental Build of configuration Debug for project SwitchBreak ****
+make all 
+Building file: ../src/SwitchBreak.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SwitchBreak.d" -MT"src/SwitchBreak.d" -o "src/SwitchBreak.o" "../src/SwitchBreak.cpp"
+Finished building: ../src/SwitchBreak.cpp
+ 
+Building target: SwitchBreak
+Invoking: Cross G++ Linker
+g++  -o "SwitchBreak"  ./src/SwitchBreak.o   
+Finished building target: SwitchBreak
+ 
+14:09:58 **** Incremental Build of configuration Debug for project SwitchBreak ****
+make all 
+Building file: ../src/SwitchBreak.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SwitchBreak.d" -MT"src/SwitchBreak.d" -o "src/SwitchBreak.o" "../src/SwitchBreak.cpp"
+Finished building: ../src/SwitchBreak.cpp
+ 
+Building target: SwitchBreak
+Invoking: Cross G++ Linker
+g++  -o "SwitchBreak"  ./src/SwitchBreak.o   
+Finished building target: SwitchBreak
+ 
+15:26:58 **** Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:27:06 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:14 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:27:18 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:20 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:21 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:31 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp:16:8: warning: multi-character character constant [-Wmultichar]
+  i x = '10'';
+        ^~~~
+../src/Enums.cpp:16:12: warning: missing terminating ' character
+  i x = '10'';
+            ^
+../src/Enums.cpp:16:12: error: missing terminating ' character
+  i x = '10'';
+            ^~
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:16:8: warning: overflow in implicit constant conversion [-Woverflow]
+  i x = '10'';
+        ^~~~
+../src/Enums.cpp:18:2: error: expected ‘,’ or ‘;’ before ‘cout’
+  cout<<x<<endl;
+  ^~~~
+../src/Enums.cpp:16:4: warning: unused variable ‘x’ [-Wunused-variable]
+  i x = '10'';
+    ^
+make: *** [src/Enums.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Enums.o' failed
+15:27:33 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp:16:8: warning: multi-character character constant [-Wmultichar]
+  i x = '10'';
+        ^~~~
+../src/Enums.cpp:16:12: warning: missing terminating ' character
+  i x = '10'';
+            ^
+../src/Enums.cpp:16:12: error: missing terminating ' character
+  i x = '10'';
+            ^~
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:16:8: warning: overflow in implicit constant conversion [-Woverflow]
+  i x = '10'';
+        ^~~~
+../src/Enums.cpp:18:2: error: expected ‘,’ or ‘;’ before ‘cout’
+  cout<<x<<endl;
+  ^~~~
+../src/Enums.cpp:16:4: warning: unused variable ‘x’ [-Wunused-variable]
+  i x = '10'';
+    ^
+src/subdir.mk:18: recipe for target 'src/Enums.o' failed
+make: *** [src/Enums.o] Error 1
+15:27:44 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp:16:8: warning: multi-character character constant [-Wmultichar]
+  i x = '10';
+        ^~~~
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:16:8: warning: overflow in implicit constant conversion [-Woverflow]
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:27:49 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:27:50 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:29:52 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:29:54 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:58 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:35:48 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:35:51 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:36:05 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:28:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:29:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:36:06 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:36:12 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:28:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:29:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:36:13 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:36:24 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:28:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:29:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:36:26 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:08 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:49:12: error: invalid conversion from ‘int’ to ‘enum_t’ [-fpermissive]
+  mycolor = 2;
+            ^
+../src/Enums.cpp:36:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:37:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+make: *** [src/Enums.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Enums.o' failed
+15:42:10 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:49:12: error: invalid conversion from ‘int’ to ‘enum_t’ [-fpermissive]
+  mycolor = 2;
+            ^
+../src/Enums.cpp:36:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:37:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+src/subdir.mk:18: recipe for target 'src/Enums.o' failed
+make: *** [src/Enums.o] Error 1
+15:42:24 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:36:7: warning: unused variable ‘x’ [-Wunused-variable]
+  test x = '1';
+       ^
+../src/Enums.cpp:37:10: warning: unused variable ‘i’ [-Wunused-variable]
+  integer i = 10;
+          ^
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:42:31 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:42:32 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:46 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:36:12: warning: variable ‘mybyte’ set but not used [-Wunused-but-set-variable]
+  mytypes_t mybyte;
+            ^~~~~~
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:42:48 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:18 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:46:20: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(mycolor = green)
+                    ^
+../src/Enums.cpp:36:12: warning: variable ‘mybyte’ set but not used [-Wunused-but-set-variable]
+  mytypes_t mybyte;
+            ^~~~~~
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:43:19 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:27 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:46:20: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(mycolor = green)
+                    ^
+../src/Enums.cpp:36:12: warning: variable ‘mybyte’ set but not used [-Wunused-but-set-variable]
+  mytypes_t mybyte;
+            ^~~~~~
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:43:40 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:37:2: error: ‘mybyte’ was not declared in this scope
+  mybyte.f = 20;
+  ^~~~~~
+../src/Enums.cpp:45:20: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(mycolor = green)
+                    ^
+src/subdir.mk:18: recipe for target 'src/Enums.o' failed
+make: *** [src/Enums.o] Error 1
+15:43:48 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+../src/Enums.cpp: In function ‘int main()’:
+../src/Enums.cpp:44:20: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if(mycolor = green)
+                    ^
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:43:51 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:55 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:43:57 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:11 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:44:13 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:24 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+Building file: ../src/Enums.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enums.d" -MT"src/Enums.d" -o "src/Enums.o" "../src/Enums.cpp"
+Finished building: ../src/Enums.cpp
+ 
+Building target: Enums
+Invoking: Cross G++ Linker
+g++  -o "Enums"  ./src/Enums.o   
+Finished building target: Enums
+ 
+15:44:26 **** Incremental Build of configuration Debug for project Enums ****
+make all 
+make: Nothing to be done for 'all'.

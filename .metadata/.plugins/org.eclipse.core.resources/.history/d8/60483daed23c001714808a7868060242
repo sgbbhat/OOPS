@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : Enums.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+// Typedef
+typedef char test;
+
+// Using
+using integer = int;
+
+// Unions
+
+union mytypes_t {
+  char c;
+  int i;
+  float f;
+};
+
+int main() {
+	test x = '1';
+	integer i = 10;
+
+	cout<<x<<endl;
+	cout<<i<<endl;
+
+	return 0;
+}

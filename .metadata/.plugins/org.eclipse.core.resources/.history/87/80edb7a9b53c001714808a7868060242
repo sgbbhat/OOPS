@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Polymorphism.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Base
+{
+	int id;
+	float balence;
+
+public:
+	void printinfo()
+	{
+		cout<<"Printing base"<<endl;
+	}
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

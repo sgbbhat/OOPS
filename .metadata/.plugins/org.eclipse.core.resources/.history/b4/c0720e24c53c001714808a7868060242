@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : SwitchBreak.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	char in;
+	cout<<"Enter input : "<<endl;
+	cin>>in;
+
+	switch(in){
+	case 'A':
+		cout<<"Entered A"<<endl;
+		break;
+	case 'B':
+		cout<<"Entered B"<<endl;
+	}
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

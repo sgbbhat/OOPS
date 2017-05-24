@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : Enums.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+// Typedef
+typedef char test;
+
+// Using
+using integer = int;
+
+// Unions
+union mytypes_t {
+  char c;
+  int i;
+  float f;
+};
+
+// enumerated type
+enum enum_t
+{
+	black,
+	blue,
+	green,
+	cyan
+};
+
+int main() {
+	mytypes_t mybyte;
+
+	mybyte.f = 20;
+
+	enum_t mycolor;
+
+	mycolor = green;
+
+	cout<<mycolor<<endl;
+
+	if(mycolor = green)
+		mycolor = cyan;
+
+	return 0;
+}
