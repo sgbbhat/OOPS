@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : ConstVar.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	const int x = 5;
+	cout << "Value of x : " << x <<endl; // prints !!!Hello World!!!
+	return 0;
+}

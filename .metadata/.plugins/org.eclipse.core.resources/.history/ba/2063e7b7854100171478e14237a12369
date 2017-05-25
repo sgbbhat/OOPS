@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : DMA.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <stdlib>
+using namespace std;
+
+int main() {
+	int * a;
+	a = malloc()
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

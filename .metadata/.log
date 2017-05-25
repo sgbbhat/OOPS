@@ -762,3 +762,153 @@ java.io.FileNotFoundException: /home/shreeganesh/Documents/C++/OOPS/Polymorphism
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-05-19 15:21:19.936
 !MESSAGE Indexed 'Enums' (1 sources, 0 headers) in 0.005 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2017-05-24 14:05:11.225 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.137
+!MESSAGE NLS unused message: TemplateEngine.internalError in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.142
+!MESSAGE NLS unused message: TemplateEngine.templateEngine in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.143
+!MESSAGE NLS unused message: ProjectCreatedActions.InsufficientInformation in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.143
+!MESSAGE NLS unused message: ConditionalProcessGroup.notExecuting in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.143
+!MESSAGE NLS unused message: ConditionalProcessGroup.unexpandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.143
+!MESSAGE NLS unused message: Process.argument in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.143
+!MESSAGE NLS unused message: Process.expandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.144
+!MESSAGE NLS unused message: Process.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.144
+!MESSAGE NLS unused message: Process.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.144
+!MESSAGE NLS unused message: Process.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.144
+!MESSAGE NLS unused message: Process.unknownProcess in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.145
+!MESSAGE NLS unused message: Process.executedSuccessfully in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.146
+!MESSAGE NLS unused message: ProcessRunner.unexpectedArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.146
+!MESSAGE NLS unused message: ProcessRunner.missingArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.146
+!MESSAGE NLS unused message: ProcessRunner.argumentsMismatch in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.146
+!MESSAGE NLS unused message: ProcessRunner.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.147
+!MESSAGE NLS unused message: ProcessRunner.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.147
+!MESSAGE NLS unused message: ProcessRunner.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-24 14:07:22.147
+!MESSAGE NLS unused message: ProcessHelper.fileNotFound in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-24 14:07:22.635
+!MESSAGE no spawner in java.library.path
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-24 14:07:23.371
+!MESSAGE Indexed 'Union' (1 sources, 0 headers) in 0.045 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-24 15:13:59.508
+!MESSAGE Indexed 'Enum1' (1 sources, 0 headers) in 0.012 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-24 15:48:12.642
+!MESSAGE Indexed 'StaticVar' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2017-05-25 12:33:49.612 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-25 12:33:55.900
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.804
+!MESSAGE NLS unused message: TemplateEngine.internalError in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.808
+!MESSAGE NLS unused message: TemplateEngine.templateEngine in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.808
+!MESSAGE NLS unused message: ProjectCreatedActions.InsufficientInformation in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.808
+!MESSAGE NLS unused message: ConditionalProcessGroup.notExecuting in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.808
+!MESSAGE NLS unused message: ConditionalProcessGroup.unexpandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.808
+!MESSAGE NLS unused message: Process.argument in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.809
+!MESSAGE NLS unused message: Process.expandableMacro in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.809
+!MESSAGE NLS unused message: Process.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.809
+!MESSAGE NLS unused message: Process.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.809
+!MESSAGE NLS unused message: Process.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.809
+!MESSAGE NLS unused message: Process.unknownProcess in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: Process.executedSuccessfully in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.unexpectedArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.missingArguments in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.argumentsMismatch in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.error in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.success in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.810
+!MESSAGE NLS unused message: ProcessRunner.info in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-05-25 14:28:52.811
+!MESSAGE NLS unused message: ProcessHelper.fileNotFound in: org.eclipse.cdt.core.templateengine.process.Messages
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-25 14:28:53.170
+!MESSAGE no spawner in java.library.path
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-25 14:28:54.814
+!MESSAGE Indexed 'ConstVar' (1 sources, 0 headers) in 0.021 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-25 15:06:16.825
+!MESSAGE Indexed 'DMA' (1 sources, 0 headers) in 0.015 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)

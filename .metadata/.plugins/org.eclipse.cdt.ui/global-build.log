@@ -1026,3 +1026,1348 @@ Finished building target: Enums
 15:44:26 **** Incremental Build of configuration Debug for project Enums ****
 make all 
 make: Nothing to be done for 'all'.
+14:08:23 **** Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+../src/Union.cpp: In function ‘int main()’:
+../src/Union.cpp:23:6: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘union_test’)
+  cout<<x<,endl;
+  ~~~~^~~
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:108:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/6/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:117:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/6/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:127:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/6/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:166:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long int’
+/usr/include/c++/6/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:170:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long unsigned int’
+/usr/include/c++/6/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:174:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘bool’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘short int’
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:181:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘short unsigned int’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘int’
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+src/subdir.mk:18: recipe for target 'src/Union.o' failed
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:192:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘unsigned int’
+/usr/include/c++/6/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:201:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long long int’
+/usr/include/c++/6/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:205:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long long unsigned int’
+/usr/include/c++/6/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:220:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘double’
+/usr/include/c++/6/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:224:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘float’
+/usr/include/c++/6/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:232:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long double’
+/usr/include/c++/6/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:245:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘const void*’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/basic_string.h:5340:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:5340:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘union_test’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/bits/ios_base.h:46:0,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/6/system_error:209:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const std::error_code&’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘union_test’)
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘char’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘char’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘signed char’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘unsigned char’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   mismatched types ‘const _CharT*’ and ‘union_test’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const char*’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const char*’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const signed char*’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const unsigned char*’
+  cout<<x<,endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = union_test] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/Union.cpp:23:8: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+  cout<<x<,endl;
+        ^
+../src/Union.cpp:23:10: error: expected primary-expression before ‘,’ token
+  cout<<x<,endl;
+          ^
+make: *** [src/Union.o] Error 1
+14:08:31 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+../src/Union.cpp: In function ‘int main()’:
+../src/Union.cpp:23:6: error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘union_test’)
+  cout<<x<<endl;
+  ~~~~^~~
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:108:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/6/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:117:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/6/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+/usr/include/c++/6/ostream:127:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/6/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:166:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long int’
+/usr/include/c++/6/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:170:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long unsigned int’
+/usr/include/c++/6/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:174:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘bool’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/Union.o' failed
+/usr/include/c++/6/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘short int’
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:181:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘short unsigned int’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘int’
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:192:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘unsigned int’
+/usr/include/c++/6/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:201:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long long int’
+/usr/include/c++/6/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:205:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long long unsigned int’
+/usr/include/c++/6/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:220:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘double’
+/usr/include/c++/6/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:224:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘float’
+/usr/include/c++/6/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:232:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘long double’
+/usr/include/c++/6/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+/usr/include/c++/6/ostream:245:7: note:   no known conversion for argument 1 from ‘union_test’ to ‘const void*’
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘union_test’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/bits/locale_classes.h:40,
+                 from /usr/include/c++/6/bits/ios_base.h:41,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/basic_string.h:5340:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:5340:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘union_test’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/bits/ios_base.h:46:0,
+                 from /usr/include/c++/6/ios:42,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/6/system_error:209:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const std::error_code&’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘union_test’)
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘char’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘char’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘signed char’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘unsigned char’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   mismatched types ‘const _CharT*’ and ‘union_test’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/ostream:638:0,
+                 from /usr/include/c++/6/iostream:39,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const char*’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const char*’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const signed char*’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/Union.cpp:23:8: note:   cannot convert ‘x’ (type ‘union_test’) to type ‘const unsigned char*’
+  cout<<x<<endl;
+        ^
+In file included from /usr/include/c++/6/iostream:39:0,
+                 from ../src/Union.cpp:9:
+/usr/include/c++/6/ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = union_test] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/6/ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/Union.cpp:23:8: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+  cout<<x<<endl;
+        ^
+make: *** [src/Union.o] Error 1
+14:08:37 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+Finished building: ../src/Union.cpp
+ 
+Building target: Union
+Invoking: Cross G++ Linker
+g++  -o "Union"  ./src/Union.o   
+Finished building target: Union
+ 
+14:09:49 **** Incremental Build of configuration Debug for project Union ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:01 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+Finished building: ../src/Union.cpp
+ 
+Building target: Union
+Invoking: Cross G++ Linker
+g++  -o "Union"  ./src/Union.o   
+Finished building target: Union
+ 
+14:10:03 **** Incremental Build of configuration Debug for project Union ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:12 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+Finished building: ../src/Union.cpp
+ 
+Building target: Union
+Invoking: Cross G++ Linker
+g++  -o "Union"  ./src/Union.o   
+Finished building target: Union
+ 
+14:10:14 **** Incremental Build of configuration Debug for project Union ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:28 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+Finished building: ../src/Union.cpp
+ 
+Building target: Union
+Invoking: Cross G++ Linker
+g++  -o "Union"  ./src/Union.o   
+Finished building target: Union
+ 
+14:10:30 **** Incremental Build of configuration Debug for project Union ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:37 **** Incremental Build of configuration Debug for project Union ****
+make all 
+Building file: ../src/Union.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Union.d" -MT"src/Union.d" -o "src/Union.o" "../src/Union.cpp"
+Finished building: ../src/Union.cpp
+ 
+Building target: Union
+Invoking: Cross G++ Linker
+g++  -o "Union"  ./src/Union.o   
+Finished building target: Union
+ 
+14:10:39 **** Incremental Build of configuration Debug for project Union ****
+make all 
+make: Nothing to be done for 'all'.
+15:47:35 **** Build of configuration Debug for project Enum1 ****
+make all 
+Building file: ../src/Enum1.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Enum1.d" -MT"src/Enum1.d" -o "src/Enum1.o" "../src/Enum1.cpp"
+Finished building: ../src/Enum1.cpp
+ 
+Building target: Enum1
+Invoking: Cross G++ Linker
+g++  -o "Enum1"  ./src/Enum1.o   
+Finished building target: Enum1
+ 
+15:47:42 **** Incremental Build of configuration Debug for project Enum1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:49:27 **** Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:49:34 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:49:42 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+../src/StaticVar.cpp: In function ‘void func()’:
+../src/StaticVar.cpp:15:9: warning: ‘count’ is used uninitialized in this function [-Wuninitialized]
+  count++;
+         ^
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:49:44 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:49:56 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:02 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:50:05 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:11 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:50:13 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:30 **** Clean-only build of configuration Debug for project StaticVar ****
+make clean 
+rm -rf  ./src/StaticVar.o  ./src/StaticVar.d  StaticVar
+ 
+15:50:37 **** Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+../src/StaticVar.cpp: In function ‘void func()’:
+../src/StaticVar.cpp:15:9: warning: ‘count’ is used uninitialized in this function [-Wuninitialized]
+  count++;
+         ^
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:50:40 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:47 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:50:49 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:55 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:50:57 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:02 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:51:03 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:08 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:51:10 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:23 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:53:31 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:53:34 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:38 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:46 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:53:48 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:50 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:08 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:54:10 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:12 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:22 **** Clean-only build of configuration Debug for project StaticVar ****
+make clean 
+rm -rf  ./src/StaticVar.o  ./src/StaticVar.d  StaticVar
+ 
+15:54:24 **** Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:54:26 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:27 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:47 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:54:48 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:55 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+Building file: ../src/StaticVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StaticVar.d" -MT"src/StaticVar.d" -o "src/StaticVar.o" "../src/StaticVar.cpp"
+Finished building: ../src/StaticVar.cpp
+ 
+Building target: StaticVar
+Invoking: Cross G++ Linker
+g++  -o "StaticVar"  ./src/StaticVar.o   
+Finished building target: StaticVar
+ 
+15:54:56 **** Incremental Build of configuration Debug for project StaticVar ****
+make all 
+make: Nothing to be done for 'all'.
+14:29:48 **** Build of configuration Debug for project ConstVar ****
+make all 
+Building file: ../src/ConstVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstVar.d" -MT"src/ConstVar.d" -o "src/ConstVar.o" "../src/ConstVar.cpp"
+../src/ConstVar.cpp: In function ‘int main()’:
+../src/ConstVar.cpp:15:6: error: assignment of read-only variable ‘x’
+  x = 7;
+      ^
+make: *** [src/ConstVar.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ConstVar.o' failed
+14:30:19 **** Incremental Build of configuration Debug for project ConstVar ****
+make all 
+Building file: ../src/ConstVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstVar.d" -MT"src/ConstVar.d" -o "src/ConstVar.o" "../src/ConstVar.cpp"
+../src/ConstVar.cpp: In function ‘int main()’:
+../src/ConstVar.cpp:15:6: error: assignment of read-only variable ‘x’
+  x = 7;  // Results in an error
+      ^
+make: *** [src/ConstVar.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ConstVar.o' failed
+15:07:51 **** Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:14:12: error: invalid conversion from ‘void*’ to ‘int*’ [-fpermissive]
+  a = malloc(10*sizeof(int));
+      ~~~~~~^~~~~~~~~~~~~~~~
+make: *** [src/DMA.o] Error 1
+src/subdir.mk:18: recipe for target 'src/DMA.o' failed
+15:08:18 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:09:21 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:09:39 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:09:47 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:09:49 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:10:22 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:10:24 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:10:36 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:11:57 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:12:10 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:12:13 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:25 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:12:27 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:17:12 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘void print(void*)’:
+../src/DMA.cpp:16:12: warning: pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+   cout<<a[i] <<endl;
+            ^
+../src/DMA.cpp:16:12: error: ‘void*’ is not a pointer-to-object type
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:26:6: warning: pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+   a[i] = 100 + i;
+      ^
+../src/DMA.cpp:26:6: error: ‘void*’ is not a pointer-to-object type
+src/subdir.mk:18: recipe for target 'src/DMA.o' failed
+make: *** [src/DMA.o] Error 1
+15:17:42 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:17:45 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:18:00 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:19:15 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:19:18 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:29 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:19:31 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:43 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:19:45 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:56 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:21:46 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:21:47 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:22:25 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:29: warning: ignoring return value of ‘void* realloc(void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  realloc(a, 12* sizeof(int));
+                             ^
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:22:37 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:13: error: invalid conversion from ‘void*’ to ‘int*’ [-fpermissive]
+  a = realloc(a, 12* sizeof(int));
+      ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/DMA.o' failed
+make: *** [src/DMA.o] Error 1
+15:23:32 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:19: error: invalid conversion from ‘void*’ to ‘int*’ [-fpermissive]
+  int * b = realloc(a, 12* sizeof(int));
+            ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+../src/DMA.cpp:29:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int * b = realloc(a, 12* sizeof(int));
+        ^
+make: *** [src/DMA.o] Error 1
+src/subdir.mk:18: recipe for target 'src/DMA.o' failed
+15:23:41 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int * b = (int *) realloc(a, 12* sizeof(int));
+        ^
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:23:56 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:23:58 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:22 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int * b = (int *) realloc(a, 12* sizeof(int));
+        ^
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:24:27 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+../src/DMA.cpp: In function ‘int main()’:
+../src/DMA.cpp:29:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int * b = (int *) realloc(a, 12* sizeof(int));
+        ^
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:24:29 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:31 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:44 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:24:47 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:24:54 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:24:56 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:19 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:26:21 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:39 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:26:41 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:55 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:26:57 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:24 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:27:26 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:39 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:28:12 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:28:14 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:46 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:28:47 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:29:20 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:29:22 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:34 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:30:56 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:30:58 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.

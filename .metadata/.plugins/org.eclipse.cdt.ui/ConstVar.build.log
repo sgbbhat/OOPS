@@ -1,0 +1,14 @@
+14:30:19 **** Incremental Build of configuration Debug for project ConstVar ****
+make all 
+Building file: ../src/ConstVar.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstVar.d" -MT"src/ConstVar.d" -o "src/ConstVar.o" "../src/ConstVar.cpp"
+../src/ConstVar.cpp: In function ‘int main()’:
+../src/ConstVar.cpp:15:6: error: assignment of read-only variable ‘x’
+  x = 7;  // Results in an error
+      ^
+make: *** [src/ConstVar.o] Error 1
+src/subdir.mk:18: recipe for target 'src/ConstVar.o' failed
+
+14:30:19 Build Finished (took 256ms)
+
