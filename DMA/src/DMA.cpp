@@ -26,15 +26,13 @@ int main() {
 	}
 	print(a);
 
-	int * b = (int *) realloc(a, 12* sizeof(int));
+	a = (int *) realloc(a, sizeof(int));
 
 	for(int i=0; i <12; i++){
-		b[i] = 100 + i;
+		a[i] = 100 + i;
 	}
-	print(b);
 
 	free(a);
-	free(b);
 
 	return 0;
 }

@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : CopyConstructor2.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class channel
+{
+private:
+	char * c;
+
+public:
+	channel(char ch){
+		c = ch;
+	}
+
+	channel(const channel &obj){
+		c = new char;
+		*c = *obj.c;
+	}
+
+	void setchar(char ch){
+		c = ch;
+	}
+
+	char getchar(){
+		return *c;
+	}
+};
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

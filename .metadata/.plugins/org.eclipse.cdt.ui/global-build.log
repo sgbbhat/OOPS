@@ -2371,3 +2371,562 @@ Finished building target: DMA
 15:30:58 **** Incremental Build of configuration Debug for project DMA ****
 make all 
 make: Nothing to be done for 'all'.
+15:33:36 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:33:38 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:05 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:34:06 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:16 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:34:17 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:56 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:34:59 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:35:15 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:35:16 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:35:36 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+Building file: ../src/DMA.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DMA.d" -MT"src/DMA.d" -o "src/DMA.o" "../src/DMA.cpp"
+Finished building: ../src/DMA.cpp
+ 
+Building target: DMA
+Invoking: Cross G++ Linker
+g++  -o "DMA"  ./src/DMA.o   
+Finished building target: DMA
+ 
+15:35:38 **** Incremental Build of configuration Debug for project DMA ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:36 **** Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+../src/CopyConst.cpp:34:1: error: expected ‘}’ at end of input
+ }
+ ^
+../src/CopyConst.cpp: In copy constructor ‘Line::Line(const Line&)’:
+../src/CopyConst.cpp:20:14: error: invalid conversion from ‘int*’ to ‘int’ [-fpermissive]
+   *ptr = obj.ptr;
+          ~~~~^~~
+../src/CopyConst.cpp: At global scope:
+../src/CopyConst.cpp:34:1: error: expected unqualified-id at end of input
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/CopyConst.o' failed
+make: *** [src/CopyConst.o] Error 1
+15:46:14 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+../src/CopyConst.cpp:34:1: error: expected ‘}’ at end of input
+ }
+ ^
+../src/CopyConst.cpp:34:1: error: expected unqualified-id at end of input
+src/subdir.mk:18: recipe for target 'src/CopyConst.o' failed
+make: *** [src/CopyConst.o] Error 1
+15:46:54 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+../src/CopyConst.cpp:40:1: error: expected ‘}’ at end of input
+ }
+ ^
+../src/CopyConst.cpp:40:1: error: expected unqualified-id at end of input
+make: *** [src/CopyConst.o] Error 1
+src/subdir.mk:18: recipe for target 'src/CopyConst.o' failed
+15:47:17 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+../src/CopyConst.cpp:36:1: error: expected ‘;’ after class definition
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/CopyConst.o' failed
+make: *** [src/CopyConst.o] Error 1
+15:47:34 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:49:51 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:50:13 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:20 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:21 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:24 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:29 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:32 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:51 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:50:53 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:08 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:51:25 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:51:26 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:49 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:52:00 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:52:06 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:52:32 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:52:34 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:52:46 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:52:49 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:05 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:53:06 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:15 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+Building file: ../src/CopyConst.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConst.d" -MT"src/CopyConst.d" -o "src/CopyConst.o" "../src/CopyConst.cpp"
+Finished building: ../src/CopyConst.cpp
+ 
+Building target: CopyConst
+Invoking: Cross G++ Linker
+g++  -o "CopyConst"  ./src/CopyConst.o   
+Finished building target: CopyConst
+ 
+15:53:16 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:23 **** Build of configuration Debug for project CopyConstructor2 ****
+make all 
+Building file: ../src/CopyConstructor2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor2.d" -MT"src/CopyConstructor2.d" -o "src/CopyConstructor2.o" "../src/CopyConstructor2.cpp"
+../src/CopyConstructor2.cpp: In constructor ‘channel::channel(char)’:
+../src/CopyConstructor2.cpp:19:7: error: invalid conversion from ‘char’ to ‘char*’ [-fpermissive]
+   c = ch;
+       ^~
+../src/CopyConstructor2.cpp: In member function ‘void channel::setchar(char)’:
+../src/CopyConstructor2.cpp:28:7: error: invalid conversion from ‘char’ to ‘char*’ [-fpermissive]
+   c = ch;
+       ^~
+src/subdir.mk:18: recipe for target 'src/CopyConstructor2.o' failed
+make: *** [src/CopyConstructor2.o] Error 1
+16:09:38 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+Building file: ../src/CopyConstructor2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor2.d" -MT"src/CopyConstructor2.d" -o "src/CopyConstructor2.o" "../src/CopyConstructor2.cpp"
+Finished building: ../src/CopyConstructor2.cpp
+ 
+Building target: CopyConstructor2
+Invoking: Cross G++ Linker
+g++  -o "CopyConstructor2"  ./src/CopyConstructor2.o   
+Finished building target: CopyConstructor2
+ 
+16:10:35 **** Incremental Build of configuration Debug for project CopyConst ****
+make all 
+make: Nothing to be done for 'all'.
+16:10:35 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+Building file: ../src/CopyConstructor2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor2.d" -MT"src/CopyConstructor2.d" -o "src/CopyConstructor2.o" "../src/CopyConstructor2.cpp"
+Finished building: ../src/CopyConstructor2.cpp
+ 
+Building target: CopyConstructor2
+Invoking: Cross G++ Linker
+g++  -o "CopyConstructor2"  ./src/CopyConstructor2.o   
+Finished building target: CopyConstructor2
+ 
+16:10:42 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:10:51 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:12:25 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+Building file: ../src/CopyConstructor2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor2.d" -MT"src/CopyConstructor2.d" -o "src/CopyConstructor2.o" "../src/CopyConstructor2.cpp"
+Finished building: ../src/CopyConstructor2.cpp
+ 
+Building target: CopyConstructor2
+Invoking: Cross G++ Linker
+g++  -o "CopyConstructor2"  ./src/CopyConstructor2.o   
+Finished building target: CopyConstructor2
+ 
+16:12:32 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:12:47 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+Building file: ../src/CopyConstructor2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor2.d" -MT"src/CopyConstructor2.d" -o "src/CopyConstructor2.o" "../src/CopyConstructor2.cpp"
+Finished building: ../src/CopyConstructor2.cpp
+ 
+Building target: CopyConstructor2
+Invoking: Cross G++ Linker
+g++  -o "CopyConstructor2"  ./src/CopyConstructor2.o   
+Finished building target: CopyConstructor2
+ 
+16:12:49 **** Incremental Build of configuration Debug for project CopyConstructor2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:37 **** Build of configuration Debug for project StructFun ****
+make all 
+Building file: ../src/StructFun.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructFun.d" -MT"src/StructFun.d" -o "src/StructFun.o" "../src/StructFun.cpp"
+../src/StructFun.cpp: In function ‘int main()’:
+../src/StructFun.cpp:24:6: warning: unused variable ‘y’ [-Wunused-variable]
+  int y = f.getBar(); // y is 3
+      ^
+Finished building: ../src/StructFun.cpp
+ 
+Building target: StructFun
+Invoking: Cross G++ Linker
+g++  -o "StructFun"  ./src/StructFun.o   
+Finished building target: StructFun
+ 
+19:59:52 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+Building file: ../src/StructFun.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructFun.d" -MT"src/StructFun.d" -o "src/StructFun.o" "../src/StructFun.cpp"
+Finished building: ../src/StructFun.cpp
+ 
+Building target: StructFun
+Invoking: Cross G++ Linker
+g++  -o "StructFun"  ./src/StructFun.o   
+Finished building target: StructFun
+ 
+20:00:03 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:16 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+Building file: ../src/StructFun.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructFun.d" -MT"src/StructFun.d" -o "src/StructFun.o" "../src/StructFun.cpp"
+Finished building: ../src/StructFun.cpp
+ 
+Building target: StructFun
+Invoking: Cross G++ Linker
+g++  -o "StructFun"  ./src/StructFun.o   
+Finished building target: StructFun
+ 
+20:11:19 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:51 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+Building file: ../src/StructFun.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructFun.d" -MT"src/StructFun.d" -o "src/StructFun.o" "../src/StructFun.cpp"
+../src/StructFun.cpp: In function ‘int main()’:
+../src/StructFun.cpp:29:6: error: assignment of read-only variable ‘x’
+  x = 5.34;
+      ^~~~
+src/subdir.mk:18: recipe for target 'src/StructFun.o' failed
+make: *** [src/StructFun.o] Error 1
+09:42:36 **** Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:16:11: error: lvalue required as increment operand
+  *c++ = *d++;
+           ^~
+make: *** [src/Charptr.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Charptr.o' failed
+09:44:27 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:16:17: error: lvalue required as increment operand
+  while(*c++ = *d++)
+                 ^~
+src/subdir.mk:18: recipe for target 'src/Charptr.o' failed
+make: *** [src/Charptr.o] Error 1
+09:44:41 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:16:18: error: lvalue required as increment operand
+  while(*c++ == *d++){
+                  ^~
+make: *** [src/Charptr.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Charptr.o' failed
+09:44:57 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:14:9: warning: unused variable ‘d’ [-Wunused-variable]
+  char * d[6];
+         ^
+../src/Charptr.cpp: At global scope:
+../src/Charptr.cpp:20:2: error: expected unqualified-id before ‘return’
+  return 0;
+  ^~~~~~
+../src/Charptr.cpp:21:1: error: expected declaration before ‘}’ token
+ }
+ ^
+make: *** [src/Charptr.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Charptr.o' failed
+09:45:18 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:14:9: warning: unused variable ‘d’ [-Wunused-variable]
+  char * d[6];
+         ^
+Finished building: ../src/Charptr.cpp
+ 
+Building target: Charptr
+Invoking: Cross G++ Linker
+g++  -o "Charptr"  ./src/Charptr.o   
+Finished building target: Charptr
+ 
+09:45:21 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:27 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:34 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:48 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+Building file: ../src/Charptr.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Charptr.d" -MT"src/Charptr.d" -o "src/Charptr.o" "../src/Charptr.cpp"
+../src/Charptr.cpp: In function ‘int main()’:
+../src/Charptr.cpp:13:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  char * c = "Hello";
+             ^~~~~~~
+../src/Charptr.cpp:14:9: warning: unused variable ‘d’ [-Wunused-variable]
+  char * d[6];
+         ^
+Finished building: ../src/Charptr.cpp
+ 
+Building target: Charptr
+Invoking: Cross G++ Linker
+g++  -o "Charptr"  ./src/Charptr.o   
+Finished building target: Charptr
+ 
+09:45:50 **** Incremental Build of configuration Debug for project Charptr ****
+make all 
+make: Nothing to be done for 'all'.

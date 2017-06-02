@@ -1,0 +1,14 @@
+20:11:51 **** Incremental Build of configuration Debug for project StructFun ****
+make all 
+Building file: ../src/StructFun.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StructFun.d" -MT"src/StructFun.d" -o "src/StructFun.o" "../src/StructFun.cpp"
+../src/StructFun.cpp: In function ‘int main()’:
+../src/StructFun.cpp:29:6: error: assignment of read-only variable ‘x’
+  x = 5.34;
+      ^~~~
+src/subdir.mk:18: recipe for target 'src/StructFun.o' failed
+make: *** [src/StructFun.o] Error 1
+
+20:11:51 Build Finished (took 317ms)
+

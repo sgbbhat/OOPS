@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="741" maximized="true" width="1018" x="0" y="27">
+<window height="757" maximized="true" width="1034" x="39" y="27">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -34,9 +34,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Enums.cpp" partName="Enums.cpp" path="/home/shreeganesh/Documents/C++/OOPS/Enums/src/Enums.cpp" title="Enums.cpp" tooltip="Enums/src/Enums.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Enums/src/Enums.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="574" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Charptr.cpp" partName="Charptr.cpp" path="/home/shreeganesh/Documents/C++/OOPS/Charptr/src/Charptr.cpp" title="Charptr.cpp" tooltip="Charptr/src/Charptr.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Charptr/src/Charptr.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="414" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -45,6 +45,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.locationField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Errors (3 items)"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="382" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="378"/>
@@ -255,166 +256,23 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FunOverloading/src/FunOverloading.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OperatorOvload/src/OperatorOvload.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/UnaryOpOverload/src/UnaryOpOverload.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FriendFunction/src/FriendFunction.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/StaticData/src/StaticData.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InheritBase/src/InheritBase.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstDerivedClass/src/ConstDerivedClass.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Polymorphism/src/Polymorphism.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SwitchBreak/src/SwitchBreak.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Enums/src/Enums.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/StructFun/src/StructFun.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Charptr/src/Charptr.cpp"/>
 </editors>
-<item historyLabel="FunOverloading.cpp" index="0">
-<position info="not_deleted" x="712" y="0"/>
-</item>
-<item historyLabel="FunOverloading.cpp" index="0">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
+<item historyLabel="StructFun.cpp" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="623" y="0"/>
+<item historyLabel="StructFun.cpp" index="0">
+<position info="not_deleted" x="590" y="0"/>
 </item>
-<item historyLabel="OperatorOvload.cpp" index="1">
+<item historyLabel="Charptr.cpp" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Charptr.cpp" index="1">
+<position info="not_deleted" x="383" y="0"/>
+</item>
+<item active="true" historyLabel="Charptr.cpp" index="1">
 <position/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="1078" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="877" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="744" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="443" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="1253" y="0"/>
-</item>
-<item historyLabel="OperatorOvload.cpp" index="1">
-<position info="not_deleted" x="1485" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="429" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="480" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="793" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="791" y="0"/>
-</item>
-<item historyLabel="UnaryOpOverload.cpp" index="2">
-<position info="not_deleted" x="924" y="0"/>
-</item>
-<item historyLabel="FriendFunction.cpp" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FriendFunction.cpp" index="3">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="StaticData.cpp" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="StaticData.cpp" index="4">
-<position info="not_deleted" x="424" y="0"/>
-</item>
-<item historyLabel="StaticData.cpp" index="4">
-<position/>
-</item>
-<item historyLabel="StaticData.cpp" index="4">
-<position info="not_deleted" x="405" y="0"/>
-</item>
-<item historyLabel="InheritBase.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="InheritBase.cpp" index="5">
-<position info="not_deleted" x="414" y="0"/>
-</item>
-<item historyLabel="InheritBase.cpp" index="5">
-<position info="not_deleted" x="522" y="0"/>
-</item>
-<item historyLabel="InheritBase.cpp" index="5">
-<position info="not_deleted" x="405" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="597" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="738" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="738" y="0"/>
-</item>
-<item historyLabel="ConstDerivedClass.cpp" index="6">
-<position info="not_deleted" x="735" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="428" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="463" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="786" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="Polymorphism.cpp" index="7">
-<position info="not_deleted" x="486" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="833" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="833" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="629" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="833" y="0"/>
-</item>
-<item historyLabel="SwitchBreak.cpp" index="8">
-<position info="not_deleted" x="829" y="0"/>
-</item>
-<item historyLabel="Enums.cpp" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Enums.cpp" index="9">
-<position info="not_deleted" x="549" y="0"/>
-</item>
-<item active="true" historyLabel="Enums.cpp" index="9">
-<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -433,6 +291,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Charptr.cpp" tooltip="Charptr/src/Charptr.cpp">
+<persistable path="/Charptr/src/Charptr.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StructFun.cpp" tooltip="StructFun/src/StructFun.cpp">
+<persistable path="/StructFun/src/StructFun.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CopyConst.cpp" tooltip="CopyConst/src/CopyConst.cpp">
+<persistable path="/CopyConst/src/CopyConst.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CopyConstructor2.cpp" tooltip="CopyConstructor2/src/CopyConstructor2.cpp">
+<persistable path="/CopyConstructor2/src/CopyConstructor2.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Enums.cpp" tooltip="Enums/src/Enums.cpp">
 <persistable path="/Enums/src/Enums.cpp"/>
 </file>
